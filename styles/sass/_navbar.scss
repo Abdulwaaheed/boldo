@@ -1,0 +1,24 @@
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(10, 38, 64, 1);
+
+}
+.navbar .logo {
+  height: 30px;
+}
+ul{
+    gap: 40px;
+    margin-left: 400px;
+    color: white;
+    font-weight: 600;
+    a{
+
+        &:hover{
+            color:rgba(105, 230, 166, 1),
+        }
+    }
+    }

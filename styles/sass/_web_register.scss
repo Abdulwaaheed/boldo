@@ -1,0 +1,64 @@
+.web_register{
+    margin: 0 auto;
+    width:85%;
+    height: 400px;
+    background-color: rgba(10, 38, 64, 1);
+    border-radius: 10px;
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: blue;
+        height: 50%;
+        h1{
+            width: 44%;
+            font-size: 35px;
+            text-align: center;
+        }
+    }
+    .bottom{
+        height: inherit;
+        form{
+            width: 100%;
+            height: 50%;
+            text-align: center;
+            input{
+                text-align: left;
+                all: unset;
+                background-color: white;
+                height: 50px;
+                width: 300px;
+                border-radius: 50px;
+                &::placeholder{
+                    text-align: left;
+                    padding: 0px 0 0 15px;
+                    color: black;
+                }
+            }
+            button{
+                all: unset;
+                width: 200px;
+                height: 50px;
+                border: 1px solid white;
+                border-radius: 50px;
+                color: black;
+                background-color: white;
+                transition: 0.7s all ease-out;
+
+                &:hover {
+                    border-color: white;
+                    color: black;
+                    transition: ease-out 0.5s;
+                    cursor: pointer;
+                    background-color: rgba(10, 38, 64, 1);
+                    color: white;
+                  }
+                  &:active {
+                    transform: scale(0.9);
+                    transition: 0.5s all ease-out;
+                  }
+            }
+        }
+    }
+
+}

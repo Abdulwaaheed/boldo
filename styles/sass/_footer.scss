@@ -1,0 +1,51 @@
+footer {
+  height: 400px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  .left {
+    width: 20%;
+    color: black;
+
+    img {
+      color: rgba(10, 38, 64, 1);
+    }
+    p {
+      color: black;
+      margin: 40px 0 40px 0;
+    }
+  }
+  .right {
+    width: 70%;
+    color: black;
+
+    .list {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 250px;
+
+      ul {
+        margin: 10px;
+        width: 0px;
+        color: black;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  .btn2 {
+    position: absolute;
+    width: 70px;
+    border: none;
+    color: black;
+    font-size: 14px;
+    background: #65e4a3;
+    right: 390px;
+    top: 210px;
+  }
+}

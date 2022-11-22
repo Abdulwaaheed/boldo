@@ -1,0 +1,56 @@
+article{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    .top{
+        height: 20%;
+        p{
+            text-align: center;
+            color: black;
+        }
+        h1{
+            color: black;
+            text-align: center;
+            width: 1000px;
+        }
+
+    }
+    .bottom{
+        .card{
+            height: 450px;
+            width: 300px;
+            // border: 2px solid black;
+            border-radius: 10px;
+            p{
+                color: grey;
+                span{
+                    font-weight: 600;
+                    color: black;
+                    margin-right: 10px;
+                }
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                p{
+                    color: black;
+                }
+                i{
+                    width: 40px;
+                    height: 40px;
+                    padding: 7px 0 0 7px;
+                    border: 2px solid black;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .btn5{
+            margin-left: 400px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
