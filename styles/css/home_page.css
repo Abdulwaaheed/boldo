@@ -63,6 +63,7 @@ ul {
   margin-left: 400px;
   color: white;
   font-weight: 600;
+  display: flex;
 }
 ul a:hover {
   color: rgb(105, 230, 166);
