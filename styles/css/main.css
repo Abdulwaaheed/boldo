@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  position: relative;
+  overflow: hidden;
+}
+header .circle1 {
+  width: 700px;
+  height: 700px;
+  background-color: rgba(47, 71, 94, 0.3882352941);
+  position: absolute;
+  border-radius: 50%;
+  right: -440px;
+}
+header #nav_bar {
+  color: white;
+  background-color: #0A2640;
+  padding: 15px 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header #nav_bar .logo {
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+header #nav_bar .navig {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+header #nav_bar .navig #nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 19px;
+}
+header #nav_bar .navig #nav .navigation {
+  transition: 1s;
+}
+header #nav_bar .navig #nav .navigation:hover {
+  text-align: center;
+  line-height: 1.2;
+  border-bottom: 1px solid white;
+}
+header #nav_bar .navig .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  background-color: white;
+  color: #0A2640;
+  height: 40px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+header #nav_bar .btn:hover {
+  color: white;
+  background-color: #0A2640;
+  box-shadow: 0 0 10px #5f5e5e;
+}
+header #nav_article {
+  width: 100%;
+  background-color: #0A2640;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 120px 0;
+}
+header #nav_article h4 {
+  font-weight: 10;
+  font-size: 20px;
+}
+header #nav_article #h1 {
+  text-align: center;
+  line-height: 1.2;
+  width: 600px;
+  font-size: 50px;
+  font-weight: 100;
+}
+header #nav_article .about {
+  line-height: 2;
+  text-align: center;
+  width: 600px;
+}
+
+article {
+  width: 100%;
+}
+article .imgs {
+  position: relative;
+  bottom: 80px;
+  width: 80%;
+  display: flex;
+  padding: 0 50px;
+}
+article .imgs .man-paper {
+  margin: 0 60px;
+}
+article .imgs .admin-men {
+  margin: 0 60px;
+}
+article .content_article {
+  width: 45%;
+  margin: 40px 270px;
+}
+article .content_article .story {
+  color: #777777;
+}
+article .content_article h2 {
+  padding-top: 20px;
+  width: 800px;
+  font-weight: 400;
+  font-size: 48px;
+}
+article .content_article .text {
+  padding-top: 20px;
+  color: #777777;
+  line-height: 1.5;
+}
+
+section .content {
+  width: 100%;
+  background-color: #0A2640;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+section .content .circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: rgba(47, 71, 94, 0.3882352941);
+  position: absolute;
+  left: -300px;
+  top: -260px;
+}
+section .content .number_header {
+  font-size: 20px;
+  color: #777777;
+}
+section .content h2 {
+  width: 700px;
+  padding: 30px 0;
+  font-size: 38px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+section .content .number {
+  width: 1200px;
+  display: flex;
+  font-weight: 400;
+  gap: 35px;
+}
+section .content .number .about-number {
+  margin: 0 50px;
+  width: 300px;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+section .content .number .about-number h2 {
+  text-align: start;
+  width: 250px;
+  font-size: 80px;
+  color: #4FE9A4;
+}
+section .content .number .about-number h4 {
+  font-size: 18px;
+  color: #777777;
+  margin-top: -50px;
+  margin-left: 5px;
+}
+section .content_section {
+  width: 100%;
+  padding: 60px 180px;
+}
+section .content_section h4 {
+  padding: 15px 0;
+  color: #777777;
+}
+section .content_section h2 {
+  padding: 15px 0;
+  font-size: 50px;
+  font-weight: 400;
+}
+section .content_section p {
+  width: 800px;
+  line-height: 1.5;
+  padding: 15px 0;
+  color: #777777;
+  font-size: 22px;
+}
+section .content_section .imgs2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 50px 0;
+}
+section .content_section .imgs2 .img {
+  width: 25%;
+}
+section .content_section .imgs2 .img h3 {
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+aside {
+  width: 100%;
+  padding: 100px 250px;
+  background-color: #0A2640;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+}
+aside h3 {
+  color: gray;
+}
+aside h2 {
+  color: white;
+  font-size: 45px;
+}
+aside p {
+  font-size: 20px;
+  width: 80%;
+  color: white;
+  line-height: 1.5;
+}
+aside .cards {
+  padding: 80px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+aside .cards .card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+aside .cards .card img {
+  width: 18%;
+}
+aside .cards .card .about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 82%;
+}
+aside .cards .card h4 {
+  font-size: 25px;
+  color: white;
+}
+aside .cards .card p {
+  font-size: 19px;
+  color: gray;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+.form #form-menu {
+  width: 80%;
+  padding: 100px 0;
+  background-color: #0A2640;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 45px;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.form #form-menu .circle {
+  width: 700px;
+  height: 900px;
+  position: absolute;
+  background-color: rgba(47, 71, 94, 0.3882352941);
+  right: -140px;
+  border-radius: 50%;
+  bottom: 200px;
+}
+.form #form-menu h2 {
+  width: 50%;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.form #form-menu .input-btn {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.form #form-menu .input-btn #email-text {
+  width: 30%;
+  border: 0;
+  border-radius: 40px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.form #form-menu .input-btn #btn {
+  width: 20%;
+  line-height: 3;
+  border: 0;
+  border-radius: 40px;
+  background-color: #4FE9A4;
+  font-size: 20px;
+  transition: all 0.4s ease-in-out;
+}
+.form #form-menu .input-btn #btn:hover {
+  color: white;
+  background-color: #0A2640;
+  box-shadow: 0 0 10px #5f5e5e;
+}
+.form #form-menu .input-btn #btn:active {
+  color: white;
+  font-size: 15px;
+  background-color: #0A2640;
+  box-shadow: 0 0 50px #5f5e5e;
+}
+
+#footer {
+  width: 100%;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer .about-our-logo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+#footer .about-our-logo p {
+  width: 100%;
+  font-size: 19px;
+  color: gray;
+}
+#footer .about-our-logo .logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+#footer .about-our-logo .logo a {
+  font-size: 30px;
+  color: #0A2640;
+}
+#footer .navigations {
+  width: 60%;
+  display: flex;
+  gap: 10px;
+}
+#footer .navigations .navig {
+  width: 100%;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#footer .navigations .navig .serv {
+  position: relative;
+  margin: 20px 0;
+}
+#footer .navigations .navig .navigation {
+  width: 100%;
+  font-size: 19px;
+  padding-top: 20px;
+  color: gray;
+}
+#footer .navigations .navig .navigation .nav-btn {
+  width: 300px;
+  display: flex;
+  gap: 30px;
+  position: absolute;
+}
+#footer .navigations .navig .navigation .nav-btn .btn-h {
+  position: relative;
+  width: 100px;
+  border-radius: 30px;
+  background-color: #4FE9A4;
+  text-align: center;
+  color: #0A2640;
+  line-height: 1.7;
+  transition: all 0.8s ease-out;
+}
+#footer .navigations .navig .navigation .nav-btn .btn-h:hover {
+  color: white;
+  background-color: #0A2640;
+  box-shadow: 0 0 30px #5f5e5e;
+}
+#footer .navigations .navig .navigation .nav-btn .btn-h:active {
+  color: white;
+  font-size: 15px;
+  background-color: #0A2640;
+  box-shadow: 0 0 50px #5f5e5e;
+}/*# sourceMappingURL=main.css.map */
